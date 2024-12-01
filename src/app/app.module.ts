@@ -4,12 +4,37 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MainComponent } from './components/main/main.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { PracticeAreasComponent } from './components/practice-areas/practice-areas.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { AttorneysComponent } from './components/attorneys/attorneys.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { BlogSingleComponent } from './components/blog/blog-single/blog-single.component';
+import { PracticeSingleComponent } from './components/practice-areas/practice-single/practice-single.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainComponent,
+    AboutusComponent,
+    PracticeAreasComponent,
+    NewsletterComponent,
+    AttorneysComponent,
+    BlogComponent,
+    BlogSingleComponent,
+    PracticeSingleComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
